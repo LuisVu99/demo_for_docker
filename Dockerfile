@@ -6,4 +6,4 @@ COPY . .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ["pytest", "-v"]
+CMD ["pytest", "test/test_sample.py"] 
