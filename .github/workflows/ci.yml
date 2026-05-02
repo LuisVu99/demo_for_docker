@@ -36,6 +36,6 @@ jobs:
     - name: Tag image
       run: docker tag qa-tester ${{ secrets.DOCKER_USERNAME }}/qa-tester:latest
 
-    # 4. Push lên Docker Hub
+    # 4. Push lên Docker Hubb
     - name: Push image
       run: docker push ${{ secrets.DOCKER_USERNAME }}/qa-tester:latest
